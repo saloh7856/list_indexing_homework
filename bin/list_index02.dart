@@ -9,7 +9,7 @@
 
 int func(){
     List x=[4,5,6,7,9];
-    return x[0];
+    return x[1];
 }
 void main(){
     print(func());
