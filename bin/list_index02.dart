@@ -8,7 +8,7 @@
 */
 
 int func(){
-    List x=[3,5,6,7];
+    List x=[4,5,6,7,9];
     return x[0];
 }
 void main(){
