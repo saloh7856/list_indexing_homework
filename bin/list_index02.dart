@@ -7,9 +7,11 @@
         list: return answer
 */
 
-int func(List a){
-    return a[0];
+List func(List x){
+    List s = [];
+    s.add(x[0]);
+    return s;
 }
 void main(){
-    print(func([4,5,6,7,9]));
+    print(func([1,3,5]));
 }
