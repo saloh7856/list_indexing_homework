@@ -6,9 +6,11 @@
     Returns:
         list: return answer
 */
-int func(List a){
-    return a[4];
+List func(List x){
+    List s = [];
+    s.add(x[2]);
+    return s;
 }
 void main(){
-    print(func([4,5,6,7,9]));
+    print(func([1,3,5]));
 }
