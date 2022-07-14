@@ -9,13 +9,14 @@
 
 List func(List list1){
     int i = 0;
-    while(list1[i] == 1){
-        list1[i] = 'True';
+    while(i < list1.length){
+        if (list1[i] == 1){    
+            list1[i] = 'True';}
         i += 1;
         
     }
     return list1;
 }
 void main(){
-    print(func([1,0,0,0,0]));
+    print(func([1,0,0,1,0]));
 }
